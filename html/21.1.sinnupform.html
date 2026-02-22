@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        form {
+            width: 320px;
+            margin: 40px auto;
+            padding: 15px;
+            background: #ffffff;
+            border-radius: 6px;
+        }
+        h2 {
+            text-align: center;
+        }
+        input {
+            width: 95%;
+            padding: 6px;
+            margin: 5px 0 10px 0;
+        }
+        .gender input {
+            width: auto;
+        }
+        input[type="submit"] {
+            width: 100%;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <h2>Signup</h2>
+
+        <input type="text" placeholder="Username">
+
+        <input type="text" placeholder="First Name">
+
+        <input type="text" placeholder="Middle Name">
+
+        <input type="text" placeholder="Last Name">
+
+        <div class="gender">
+            Gender:<br>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+        </div><br>
+
+        <input type="email" placeholder="Email">
+
+        <input type="password" placeholder="Password">
+
+        <input type="password" placeholder="Confirm Password">
+
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>
