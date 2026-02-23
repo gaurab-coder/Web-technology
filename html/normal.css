@@ -1,0 +1,8 @@
+form:hover{
+    color:rgb(24, 14, 2);
+}
+body{
+    background-image:url("college.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
