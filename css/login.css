@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    background: #825ace;
+    text-align: center;
+    padding: 80px 0;
+}
+.form-box {
+    display: inline-block;
+    background: rgb(68, 120, 141);
+    padding: 15px;
+    border-radius: 6px;
+}
+input {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background: #0056b3;
+}
